@@ -1,0 +1,59 @@
+* {
+    margin: 2;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: rgb(130, 219, 190);
+    font-family: 'Century Gothic', sans-serif;
+    
+}
+.menu {
+    width: 500px;
+    background:rgb(105, 110, 109);
+    margin : 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+.box-image{
+    border-radius: 50%;
+}
+.menu h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
+.menu h4{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.menu p {
+    text-align: justify;
+}
+.menu ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+.icons{
+    color: rgb(43, 101, 226);
+    font-size: 45px;
+    padding: 18px 5px;
+    transition:  all 0.5 ease-in-out; 
+    
+}
+.menu .icons{
+    color: #b9b9b9;
+    transform: scale(1.1);
+
+}
