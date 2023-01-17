@@ -1,4 +1,4 @@
-@import url(./portafolio.css);
+@import url("./portafolio.css");
 * {
     margin: 2;
     padding: 0;
@@ -9,7 +9,7 @@ body {
     background-color: #567189;
     font-family: 'Century Gothic', sans-serif;
     margin-top: 80px;
-    background-image: url('/docs/img/fond.jpg') no-repeat;
+    background-image: url('../img/fond.jpg') no-repeat;
     background-size: cover;   
 }
 body .barra{
