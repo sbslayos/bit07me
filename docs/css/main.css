@@ -1,3 +1,4 @@
+@import url(/docs/css/portafolio.css);
 * {
     margin: 2;
     padding: 0;
@@ -5,23 +6,58 @@
     
 }
 body {
-    background-color: rgb(130, 219, 190);
+    background-color: #567189;
     font-family: 'Century Gothic', sans-serif;
+    margin-top: 80px;
+    background-image: url('/docs/img/fond.jpg') no-repeat;
+    background-size: cover;   
+}
+body .barra{
+     margin-left: auto;
+    list-style: none;
+    padding: 0;
+    background: #7B8FA1;
+    width: 1000px;
+    margin: auto;
+    border-radius: 10px; 
+    position:fixed;
+    left: 0;
+    top: 0;
+    width: 90%;
+    z-index: 100;
+    text-align: center;
+    margin-left: 5%;
     
+}
+body .barra li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    
+}
+body .barra li{
+    display: inline-block; 
+}
+body .barra li a:hover{
+    background: #FAD6A5;
 }
 .menu {
     width: 500px;
-    background:rgb(105, 110, 109);
+    background: #7B8FA1;
     margin : 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
     padding: 20px;
     color: white;
     text-align: center;
     border-radius: 15px;
+    
 }
-.box-image{
-    border-radius: 50%;
+.menu figure .box-image{
+    border-radius: 10%;
+
 }
+
 .menu h1{
     font-size: 40px;
     letter-spacing: 4px;
@@ -45,15 +81,24 @@ body {
 .menu ul li{
     display: inline-block;
 }
-.icons{
-    color: rgb(43, 101, 226);
-    font-size: 45px;
-    padding: 18px 5px;
-    transition:  all 0.5 ease-in-out; 
-    
-}
-.menu .icons{
-    color: #b9b9b9;
+
+.menu ul{
+    color: #CFB997;
     transform: scale(1.1);
 
+}
+.menu ul li a{
+    color: #FAD6A5;
+    font-size: 45px;
+    display: block;
+    padding: 10px 5px;
+    transition: all 0.5s ease-in-out;
+}
+.menu ul li a:hover{
+    color: #b9b9b9;
+    transform: scale(1.1);
+}
+
+.menu figure figcaption{
+    color: #CFB997;
 }
