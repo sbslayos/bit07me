@@ -10,13 +10,14 @@
 <body>
     <h1>EJERCICIOS JAVA SCRIPT</h1>
     <h3>Ejercicio 1</h3>
-<form>
-    <p>Como te llamas?</p>
-    <label>
-    <div onclick="saludar()">Hola</div>
-    <input type="text"  id="name" name="name" required
-       minlength="2" maxlength="8" size="10" onclick="saludar(name)">
-    </label>
+<form id="form" class="form_html" action="">
+    <label for="name">
+        <span>Dinos tu nombre</span>
+        <input name="name" type="text" required/>
+        <button type="submit">Enviar</button>
+
+
+    </label>  
 </form>
 
 
