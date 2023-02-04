@@ -102,3 +102,10 @@ body .barra li a:hover{
 .menu figure figcaption{
     color: #CFB997;
 }
+.fcc-btn {
+    background-color: #FAD6A5;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 3px;
+  }
