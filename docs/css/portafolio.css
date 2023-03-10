@@ -11,13 +11,10 @@
     
 }
 .fcc-btn{
-    margin-top: 3px;
+    margin-top: 5px;
     display:inline-block;
     flex-grow: initial;
 }
-
-
-
 
 /* .buttonProyect{
     font-size:15px;
